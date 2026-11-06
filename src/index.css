@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #0F172A;
+    background-color: #F8FAFC;
+  }
+}
+
+.latex-document {
+  font-family: 'Source Serif 4', 'Cormorant Garamond', Georgia, serif;
+  color: #000000;
+  line-height: 1.55;
+}
+
+.latex-document .katex {
+  font-size: 1.04em;
+}
+
+.latex-document .katex-display {
+  margin: 0.65em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 16mm 18mm 16mm 18mm;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .latex-page {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .question-block {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .part-break {
+    break-before: page;
+    page-break-before: always;
+  }
+}
