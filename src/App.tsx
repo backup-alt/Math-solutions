@@ -461,7 +461,7 @@ export default function App() {
                 </p>
                 <div className="space-y-2.5 text-xs">
                   <a
-                    href="/assets/aistudio/DM_EMA51005_Question_Bank_Module_2__1__8e66367d.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/aistudio/DM_EMA51005_Question_Bank_Module_2__1__8e66367d.pdf`}
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-between p-3 rounded-lg border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-colors text-slate-800 font-medium"
@@ -470,7 +470,7 @@ export default function App() {
                     <Eye className="w-4 h-4 text-slate-500 shrink-0" />
                   </a>
                   <a
-                    href="/assets/aistudio/EMA51005_Module_3_Final_Answer_Key_1e6287a0.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/aistudio/EMA51005_Module_3_Final_Answer_Key_1e6287a0.pdf`}
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-between p-3 rounded-lg border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-colors text-slate-800 font-medium"
@@ -479,7 +479,7 @@ export default function App() {
                     <Eye className="w-4 h-4 text-slate-500 shrink-0" />
                   </a>
                   <a
-                    href="/assets/aistudio/EMA51005_Module_4_Final_Answer_Key_261299cc.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/aistudio/EMA51005_Module_4_Final_Answer_Key_261299cc.pdf`}
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-between p-3 rounded-lg border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-colors text-slate-800 font-medium"
@@ -703,7 +703,7 @@ export default function App() {
                 <div className="bg-slate-900 overflow-auto max-h-[680px] flex items-start justify-center p-3">
                   {!imageErrorMap[selectedNotebookPage.imagePath] ? (
                     <img
-                      src={selectedNotebookPage.imagePath}
+                      src={import.meta.env.BASE_URL + selectedNotebookPage.imagePath}
                       alt={selectedNotebookPage.label}
                       referrerPolicy="no-referrer"
                       style={{

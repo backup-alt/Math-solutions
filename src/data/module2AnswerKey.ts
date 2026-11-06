@@ -26,41 +26,41 @@ export interface QuestionItem {
 }
 
 export const ALL_NOTEBOOK_PAGES: NotebookRef[] = [
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.03_PM_d224d416.jpeg', label: 'Page 1: Unit-2 Intro, Induction Working Rule & Q1 (Sum of n)', date: '9/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.11_PM_f9a28e87.jpeg', label: 'Page 2: Induction Q1 LHS & Q2 (1/1.2 + ... + 1/n(n+1))', date: '9/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.17_PM_201f6604.jpeg', label: 'Page 3: Induction Q2 LHS (Previous term) & Q3 (2^n > n)', date: '9/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.25_PM_86dca459.jpeg', label: 'Page 4: Induction Q3 Proof (k < 2^k)', date: '9/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.32_PM_c4049fa8.jpeg', label: 'Page 5: H/W Sums of Squares & Strong Induction (6^{n+2}+7^{2n+1} div by 43)', date: '9/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Page 6: Divisibility by 43 Inductive Step (43c - 301*7^{2k})', date: '9/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.00_PM_a0731004.jpeg', label: 'Page 7: H/W Answer 1 (1^2 + 2^2 + ... + n^2 = n(n+1)(2n+1)/6)', date: '9/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.07_PM_2e51f1b8.jpeg', label: 'Page 8: H/W Answer 2 (1^2 + 3^2 + 5^2 + ... = 1/3 n(2n-1)(2n+1))', date: '9/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.14_PM_5547da44.jpeg', label: 'Page 9: Odd Squares Conclusion & 10M Inequality (1/sqrt(1)+...+1/sqrt(n) > sqrt(n))', date: '10/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.19_PM_8f97f436.jpeg', label: 'Page 10: Inequality Inductive Step (sqrt(k) + 1/sqrt(k+1))', date: '10/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Page 11: Pigeonhole & Generalised Pigeonhole Principle [(m-n)/n]+1; 100 People', date: '10/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.40_PM_45b19952.jpeg', label: 'Page 12: 7 Colours & 50 Bicycles; 25 Dictionaries & 40325 Pages', date: '10/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.45_PM_3ca2fc7a.jpeg', label: 'Page 13: Dictionaries Calculation (1614) & Permutation Formula nPr', date: '13/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.57_PM_6e336aeb.jpeg', label: 'Page 14: Permutations of INDIA (60) and RADAR', date: '13/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.05_PM_23421749.jpeg', label: 'Page 15: RADAR (30), UNUSUAL (840), and Find n if nP2 = 20', date: '13/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.11_PM_d8c0d39f.jpeg', label: 'Page 16: Solving nP2 = 20 (n=5) and nP3 = 5*nP2 (n=7)', date: '13/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.19_PM_8dbc0b68.jpeg', label: 'Page 17: 6 Boys & 4 Girls (No two girls together) & Strings in ABCDEFG', date: '13/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.28_PM_bad5a408.jpeg', label: 'Page 18: Permutations of ABCDEFG containing BCD, CFGA, BA & GF, ABC & DE', date: '13/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.35_PM_e1fafb7c.jpeg', label: 'Page 19: 6 Boys and 5 Girls in a Row (Part i: 11!, Part ii: 172800)', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.49_PM_d424f7ba.jpeg', label: 'Page 20: 6 Boys & 5 Girls Part iii (432000) & Combinations nCr (10C5 = 252)', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.56_PM_ff59555a.jpeg', label: 'Page 21: Educationalists & Socialists Committee; Bit Strings of Length 10', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.03_PM_661e7b7a.jpeg', label: 'Page 22: Bit Strings of Length 10 — (i) Exactly four 1s (210), (ii) At most four 1s (386)', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_PM_12.23.10_PM_0cfe844c.jpeg'.replace('_PM_12', '_at_12'), label: 'Page 23: Bit Strings of Length 10 — (iii) At least four 1s (848), (iv) Equal 0s and 1s (252)', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.28_PM_4e472ac8.jpeg', label: 'Page 24: Committee from 6 Men and 7 Women — (i) 3M & 4W (700), (ii) At least 1 Woman (700)', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.33_PM_cb9a9d4e.jpeg', label: 'Page 25: 6 Men & 7 Women (iii) At least 1 Man (680) & QB1: Team of 11 from 15 Players', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.41_PM_a883be73.jpeg', label: 'Page 26: QB1 Solution: 14C10 = 1001 and 13C9 = 715', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.47_PM_3d68efd3.jpeg', label: 'Page 27: QB2: 20 Students out of 30 (Rama, Raja, Gopal & Govind)', date: '14/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.57_PM_d4603e05.jpeg', label: 'Page 28: Principles of Inclusion and Exclusion (2, 3, and 4 Sets Formulas)', date: '16/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.06_PM_60efc6dd.jpeg', label: 'Page 29: Survey of 500 Students (Volleyball & Hockey) & Integers <= 1000 div by 7 or 11', date: '16/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.17_PM_0be9f960.jpeg', label: 'Page 30: Integers <= 1000 Divisible by 7 or 11 Solution', date: '16/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.24_PM_716006d2.jpeg', label: 'Page 31: 10M Problem: Integers between 1 and 250 not divisible by 2, 3, 5, 7 (Part 1)', date: '16/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.34_PM_4ed62425.jpeg', label: 'Page 32: Integers 1 to 250 not divisible by 2, 3, 5, 7 (Part 2: |A1 U A2 U A3 U A4| = 193)', date: '16/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'Page 33: Recurrence Relation Definition & Q1 (a_n = 3*2^n -> a_n - 2a_{n-1} = 0)', date: '20/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.53_PM_855d9743.jpeg', label: 'Page 34: Recurrence Relation Q2 (a_n = 2n+9) & Q3 (y_n = A*2^n + B*3^n)', date: '20/7/26' },
-  { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.25.00_PM_eafe1440.jpeg', label: 'Page 35: Determinant Method for y_n = A*2^n + B*3^n -> 6y_n - 5y_{n+1} + y_{n+2} = 0', date: '20/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.03_PM_d224d416.jpeg', label: 'Page 1: Unit-2 Intro, Induction Working Rule & Q1 (Sum of n)', date: '9/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.11_PM_f9a28e87.jpeg', label: 'Page 2: Induction Q1 LHS & Q2 (1/1.2 + ... + 1/n(n+1))', date: '9/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.17_PM_201f6604.jpeg', label: 'Page 3: Induction Q2 LHS (Previous term) & Q3 (2^n > n)', date: '9/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.25_PM_86dca459.jpeg', label: 'Page 4: Induction Q3 Proof (k < 2^k)', date: '9/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.32_PM_c4049fa8.jpeg', label: 'Page 5: H/W Sums of Squares & Strong Induction (6^{n+2}+7^{2n+1} div by 43)', date: '9/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Page 6: Divisibility by 43 Inductive Step (43c - 301*7^{2k})', date: '9/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.00_PM_a0731004.jpeg', label: 'Page 7: H/W Answer 1 (1^2 + 2^2 + ... + n^2 = n(n+1)(2n+1)/6)', date: '9/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.07_PM_2e51f1b8.jpeg', label: 'Page 8: H/W Answer 2 (1^2 + 3^2 + 5^2 + ... = 1/3 n(2n-1)(2n+1))', date: '9/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.14_PM_5547da44.jpeg', label: 'Page 9: Odd Squares Conclusion & 10M Inequality (1/sqrt(1)+...+1/sqrt(n) > sqrt(n))', date: '10/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.19_PM_8f97f436.jpeg', label: 'Page 10: Inequality Inductive Step (sqrt(k) + 1/sqrt(k+1))', date: '10/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Page 11: Pigeonhole & Generalised Pigeonhole Principle [(m-n)/n]+1; 100 People', date: '10/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.40_PM_45b19952.jpeg', label: 'Page 12: 7 Colours & 50 Bicycles; 25 Dictionaries & 40325 Pages', date: '10/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.45_PM_3ca2fc7a.jpeg', label: 'Page 13: Dictionaries Calculation (1614) & Permutation Formula nPr', date: '13/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.57_PM_6e336aeb.jpeg', label: 'Page 14: Permutations of INDIA (60) and RADAR', date: '13/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.05_PM_23421749.jpeg', label: 'Page 15: RADAR (30), UNUSUAL (840), and Find n if nP2 = 20', date: '13/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.11_PM_d8c0d39f.jpeg', label: 'Page 16: Solving nP2 = 20 (n=5) and nP3 = 5*nP2 (n=7)', date: '13/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.19_PM_8dbc0b68.jpeg', label: 'Page 17: 6 Boys & 4 Girls (No two girls together) & Strings in ABCDEFG', date: '13/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.28_PM_bad5a408.jpeg', label: 'Page 18: Permutations of ABCDEFG containing BCD, CFGA, BA & GF, ABC & DE', date: '13/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.35_PM_e1fafb7c.jpeg', label: 'Page 19: 6 Boys and 5 Girls in a Row (Part i: 11!, Part ii: 172800)', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.49_PM_d424f7ba.jpeg', label: 'Page 20: 6 Boys & 5 Girls Part iii (432000) & Combinations nCr (10C5 = 252)', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.56_PM_ff59555a.jpeg', label: 'Page 21: Educationalists & Socialists Committee; Bit Strings of Length 10', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.03_PM_661e7b7a.jpeg', label: 'Page 22: Bit Strings of Length 10 — (i) Exactly four 1s (210), (ii) At most four 1s (386)', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_PM_12.23.10_PM_0cfe844c.jpeg'.replace('_PM_12', '_at_12'), label: 'Page 23: Bit Strings of Length 10 — (iii) At least four 1s (848), (iv) Equal 0s and 1s (252)', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.28_PM_4e472ac8.jpeg', label: 'Page 24: Committee from 6 Men and 7 Women — (i) 3M & 4W (700), (ii) At least 1 Woman (700)', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.33_PM_cb9a9d4e.jpeg', label: 'Page 25: 6 Men & 7 Women (iii) At least 1 Man (680) & QB1: Team of 11 from 15 Players', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.41_PM_a883be73.jpeg', label: 'Page 26: QB1 Solution: 14C10 = 1001 and 13C9 = 715', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.47_PM_3d68efd3.jpeg', label: 'Page 27: QB2: 20 Students out of 30 (Rama, Raja, Gopal & Govind)', date: '14/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.57_PM_d4603e05.jpeg', label: 'Page 28: Principles of Inclusion and Exclusion (2, 3, and 4 Sets Formulas)', date: '16/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.06_PM_60efc6dd.jpeg', label: 'Page 29: Survey of 500 Students (Volleyball & Hockey) & Integers <= 1000 div by 7 or 11', date: '16/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.17_PM_0be9f960.jpeg', label: 'Page 30: Integers <= 1000 Divisible by 7 or 11 Solution', date: '16/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.24_PM_716006d2.jpeg', label: 'Page 31: 10M Problem: Integers between 1 and 250 not divisible by 2, 3, 5, 7 (Part 1)', date: '16/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.34_PM_4ed62425.jpeg', label: 'Page 32: Integers 1 to 250 not divisible by 2, 3, 5, 7 (Part 2: |A1 U A2 U A3 U A4| = 193)', date: '16/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'Page 33: Recurrence Relation Definition & Q1 (a_n = 3*2^n -> a_n - 2a_{n-1} = 0)', date: '20/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.53_PM_855d9743.jpeg', label: 'Page 34: Recurrence Relation Q2 (a_n = 2n+9) & Q3 (y_n = A*2^n + B*3^n)', date: '20/7/26' },
+  { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.25.00_PM_eafe1440.jpeg', label: 'Page 35: Determinant Method for y_n = A*2^n + B*3^n -> 6y_n - 5y_{n+1} + y_{n+2} = 0', date: '20/7/26' },
 ];
 
 export const MODULE_2_QUESTIONS: QuestionItem[] = [
@@ -77,7 +77,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Uses the professor’s exact permutation formula nPr = n! / (n-r)! with step-by-step factorial expansion and cancellation (as taught on 13/7/26).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.45_PM_3ca2fc7a.jpeg', label: 'Permutation formula nPr = n!/(n-r)!', date: '13/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.45_PM_3ca2fc7a.jpeg', label: 'Permutation formula nPr = n!/(n-r)!', date: '13/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'The total number of given digits is $n = 6$ (namely $1, 2, 3, 5, 7, 8$), and we take $r = 4$ digits at a time without repetition.' },
@@ -97,7 +97,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact verbatim match from Professor’s notebook (10/7/26, Problem 2): defines m = 50, n = 7, and substitutes into [(m-n)/n] + 1 = [(50-7)/7] + 1 = 43/7 + 1 = 6.14 + 1 -> 7 + 1 = 8.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.40_PM_45b19952.jpeg', label: 'Problem 2: 7 colours & 50 bicycles', date: '10/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.40_PM_45b19952.jpeg', label: 'Problem 2: 7 colours & 50 bicycles', date: '10/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given:' },
@@ -118,8 +118,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Follows the exact letter-frequency listing format taught by the professor for INDIA, RADAR, and UNUSUAL (13/7/26).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.57_PM_6e336aeb.jpeg', label: 'Repeated letters format (INDIA, RADAR)', date: '13/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.05_PM_23421749.jpeg', label: 'UNUSUAL (7 letters with 3 repeats)', date: '13/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.57_PM_6e336aeb.jpeg', label: 'Repeated letters format (INDIA, RADAR)', date: '13/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.05_PM_23421749.jpeg', label: 'UNUSUAL (7 letters with 3 repeats)', date: '13/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'For the word $\\text{BENZENE}$:' },
@@ -144,7 +144,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Word-for-word definition from Professor’s notebook (10/7/26, top of page).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Pigeon Hole Principle definition', date: '10/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Pigeon Hole Principle definition', date: '10/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'If $n + 1$ pigeons occupy $n$ holes, then at least one hole has more than one pigeon.' }
@@ -160,7 +160,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Applies the Generalised Pigeonhole Principle formula from 10/7/26 with n = 4 subjects (holes) and required minimum = 5.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Generalised Pigeonhole formula', date: '10/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Generalised Pigeonhole formula', date: '10/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Here, the number of subjects (holes) is $n = 4$ (English, Maths, Physics, Chemistry), and we require at least $k = 5$ students in the same subject.' },
@@ -180,7 +180,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact statement and boxed formula [(m-n)/n] + 1 from Professor’s notebook (10/7/26).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Generalised Pigeon Hole Principle', date: '10/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Generalised Pigeon Hole Principle', date: '10/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'If $m$ pigeons occupy $n$ holes ($m > n$), then at least one hole contains at least:' },
@@ -197,7 +197,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: false,
     professorMethodNote: 'Uses the professor’s m (pigeons = 36 km) and n (holes = 4 pairs of 2 consecutive hours) notation.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Generalised Pigeonhole Principle', date: '10/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.31_PM_d2d4c5db.jpeg', label: 'Generalised Pigeonhole Principle', date: '10/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Total distance covered in $10$ hours $= 45\\text{ km}$. Distance covered in the $1\\text{st}$ hour $= 6\\text{ km}$ and in the $10\\text{th}$ hour $= 3\\text{ km}$.' },
@@ -219,7 +219,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact word-for-word definition from Professor’s notebook (20/7/26).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'Recurrence Relation definition', date: '20/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'Recurrence Relation definition', date: '20/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'An equation that expresses the general term of a sequence $\\{a_n\\}$ in terms of one or more previous terms of the sequence, namely $a_1, a_2, \\dots, a_{n-1}$, for all positive integers $n$ with $n \\ge n_0$, where $n_0$ is a non-negative integer, is called a recurrence relation for the sequence $\\{a_n\\}$.' }
@@ -235,7 +235,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Uses the professor’s notation y_n = A m_1^n + B m_2^n (as seen in 20/7/26 notes) together with the non-homogeneous general form a_n = a_n^{(h)} + a_n^{(p)}.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.53_PM_855d9743.jpeg', label: 'General solution form y_n = A 2^n + B 3^n', date: '20/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.53_PM_855d9743.jpeg', label: 'General solution form y_n = A 2^n + B 3^n', date: '20/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'For a linear recurrence relation, the general solution is the sum of the homogeneous solution $a_n^{(h)}$ and the particular solution $a_n^{(p)}$:' },
@@ -257,7 +257,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact formula from Professor’s notebook (16/7/26).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.57_PM_d4603e05.jpeg', label: 'Principle of Inclusion and Exclusion', date: '16/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.57_PM_d4603e05.jpeg', label: 'Principle of Inclusion and Exclusion', date: '16/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'For any three finite sets $A, B, C$, the Principle of Inclusion and Exclusion formula is:' },
@@ -278,8 +278,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Strictly follows the professor’s 3-step Induction Working Rule (9/7/26): i) P(1) is true, ii) Assume P(k) is true (= 3c), iii) To prove P(k+1) is true.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.03_PM_d224d416.jpeg', label: 'Mathematical Induction Working Rule', date: '9/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Divisibility induction format (= c)', date: '9/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.03_PM_d224d416.jpeg', label: 'Mathematical Induction Working Rule', date: '9/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Divisibility induction format (= c)', date: '9/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $P(n) : n^3 + 2n$ is divisible by $3$.' },
@@ -309,8 +309,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact line-by-line match with Professor’s notebook (9/7/26, Problem 2, Pages 2 & 3), including the "Previous term" LHS expansion and factoring of k^2 + 2k + 1 = (k+1)(k+1).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.11_PM_f9a28e87.jpeg', label: 'Problem 2 Setup: P(1), P(k), P(k+1)', date: '9/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.17_PM_201f6604.jpeg', label: 'Problem 2 LHS & Previous term working', date: '9/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.11_PM_f9a28e87.jpeg', label: 'Problem 2 Setup: P(1), P(k), P(k+1)', date: '9/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.17_PM_201f6604.jpeg', label: 'Problem 2 LHS & Previous term working', date: '9/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $P(n) : \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{n(n+1)} = \\frac{n}{n+1}$.' },
@@ -339,8 +339,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact line-by-line match with Professor’s notebook (14/7/26, Problem 4(ii), Page 24): lists the 4 cases (1W 3M, 2W 2M, 3W 1M, 4W 0M) and expands 7C1*6C3 + 7C2*6C2 + 7C3*6C1 + 7C4*6C0 = 700.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.28_PM_4e472ac8.jpeg', label: 'Problem 4(ii): 6 men & 7 women, 4 members at least 1 woman', date: '14/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.33_PM_cb9a9d4e.jpeg', label: 'Factorial expansion style for cases', date: '14/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.28_PM_4e472ac8.jpeg', label: 'Problem 4(ii): 6 men & 7 women, 4 members at least 1 woman', date: '14/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.33_PM_cb9a9d4e.jpeg', label: 'Factorial expansion style for cases', date: '14/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given: Men $= 6$, Women $= 7$. A committee of $4$ members is to be selected having at least one woman.' },
@@ -368,8 +368,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Follows the professor’s exact 3-set Inclusion-Exclusion notation from 16/7/26 (Pages 28 & 29).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.57_PM_d4603e05.jpeg', label: '3-Set Inclusion-Exclusion Formula', date: '16/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.06_PM_60efc6dd.jpeg', label: 'Survey problem structure', date: '16/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.57_PM_d4603e05.jpeg', label: '3-Set Inclusion-Exclusion Formula', date: '16/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.06_PM_60efc6dd.jpeg', label: 'Survey problem structure', date: '16/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $A_1, A_2, A_3$ denote the sets of students who have taken courses in Fortran, C, and Java respectively.' },
@@ -399,8 +399,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact verbatim match with Professor’s notebook (14/7/26, Problem 1, Pages 19 & 20): (i) 11P11 = 11!, (ii) 6! x 5! x 2 = 172800, (iii) 6! x 5! x 5 = 432000.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.35_PM_e1fafb7c.jpeg', label: '6 Boys & 5 Girls Parts (i) and (ii)', date: '14/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.49_PM_d424f7ba.jpeg', label: '6 Boys & 5 Girls Part (iii): 6! x 5! x 5 = 432000', date: '14/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.35_PM_e1fafb7c.jpeg', label: '6 Boys & 5 Girls Parts (i) and (ii)', date: '14/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.49_PM_d424f7ba.jpeg', label: '6 Boys & 5 Girls Part (iii): 6! x 5! x 5 = 432000', date: '14/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given: Number of boys $(\\text{B}) = 6$, Number of girls $(\\text{G}) = 5$, Total $= 11$.' },
@@ -426,7 +426,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: false,
     professorMethodNote: 'Uses characteristic equation in variable m (as in 20/7/26 notes) followed by particular solution and initial conditions.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.25.00_PM_eafe1440.jpeg', label: 'Characteristic roots notation m', date: '20/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.25.00_PM_eafe1440.jpeg', label: 'Characteristic roots notation m', date: '20/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given recurrence relation: $a_{n+2} - 6a_{n+1} + 9a_n = 3 \\cdot 2^n + 7 \\cdot 3^n$, with $a_0 = 1, a_1 = 4$.' },
@@ -459,7 +459,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Uses the professor’s repeated-element permutation formula n! / (p! q!) across the valid leading digits 5, 6, and 7.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.57_PM_6e336aeb.jpeg', label: 'Repeated permutations formula', date: '13/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.57_PM_6e336aeb.jpeg', label: 'Repeated permutations formula', date: '13/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given $7$ digits: $3, 4, 4, 5, 5, 6, 7$, where $4$ is repeated $2$ times and $5$ is repeated $2$ times.' },
@@ -487,7 +487,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: false,
     professorMethodNote: 'Step-by-step factorial expansion matching the professor’s permutation problems.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.19_PM_8dbc0b68.jpeg', label: 'Alternating / gap seating arrangement', date: '13/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.19_PM_8dbc0b68.jpeg', label: 'Alternating / gap seating arrangement', date: '13/7/26' }
     ],
     answerLines: [
       { type: 'subhead', content: '(i) Total circular arrangements of 6 people:' },
@@ -516,8 +516,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact verbatim match with Professor’s notebook (14/7/26, marked -QB- 1, Pages 25 & 26): writes (15-1)C(11-1) => 14C10 = 1001 and (15-2)C(11-2) => 13C9 = 715.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.33_PM_cb9a9d4e.jpeg', label: 'QB 1 Problem statement in notebook', date: '14/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.41_PM_a883be73.jpeg', label: 'QB 1 Full Solution: 1001 and 715', date: '14/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.33_PM_cb9a9d4e.jpeg', label: 'QB 1 Problem statement in notebook', date: '14/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.41_PM_a883be73.jpeg', label: 'QB 1 Full Solution: 1001 and 715', date: '14/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Total members $= 15$, Players to be chosen $= 11$.' },
@@ -539,7 +539,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: false,
     professorMethodNote: 'Uses first-order characteristic root m = 2 and particular solution C * 3^n.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'First-order recurrence relation a_n - 2a_{n-1} = 0', date: '20/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'First-order recurrence relation a_n - 2a_{n-1} = 0', date: '20/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given recurrence relation: $a_n - 2a_{n-1} = 3^n$, with $a_1 = 5$.' },
@@ -574,7 +574,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: false,
     professorMethodNote: 'Presents both the Characteristic + Particular Polynomial method and the Summation method for full 10-mark rigor.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'Recurrence relation notes', date: '20/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'Recurrence relation notes', date: '20/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given recurrence relation: $a_{n+1} - a_n = 3n^2 - n$, $n \\ge 0$, with $a_0 = 3$.' },
@@ -609,8 +609,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Strictly follows the professor’s divisibility induction style (9/7/26, Pages 5 & 6): sets P(k)/9 = c => P(k) = 9c and substitutes into P(k+1).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.32_PM_c4049fa8.jpeg', label: 'Divisibility Induction Setup', date: '9/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Assume P(k) is true => = c', date: '9/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.32_PM_c4049fa8.jpeg', label: 'Divisibility Induction Setup', date: '9/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Assume P(k) is true => = c', date: '9/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $P(n) : n^3 + (n+1)^3 + (n+2)^3$ is divisible by $9$.' },
@@ -640,7 +640,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Referenced in the professor’s introduction to Recurrence Relations (20/7/26, Page 33: "if we consider the famous Fibonacci sequence").',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'Fibonacci sequence reference in notes', date: '20/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.42_PM_bb986b4f.jpeg', label: 'Fibonacci sequence reference in notes', date: '20/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given the Fibonacci sequence $0, 1, 1, 2, 3, 5, 8, 13, \\dots$, the recurrence relation and initial conditions are:' },
@@ -667,8 +667,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact line-by-line match with Professor’s notebook (9/7/26, Pages 8 & 9): "The next term is (2(k+1)-1)^2 = (2k+1)^2, add on both side, Factor out (2k+1)".',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.07_PM_2e51f1b8.jpeg', label: 'Odd squares proof part 1: Factor out (2k+1)', date: '9/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.14_PM_5547da44.jpeg', label: 'Odd squares proof part 2: (2k+1)(k+1)(2k+3)/3', date: '9/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.07_PM_2e51f1b8.jpeg', label: 'Odd squares proof part 1: Factor out (2k+1)', date: '9/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.14_PM_5547da44.jpeg', label: 'Odd squares proof part 2: (2k+1)(k+1)(2k+3)/3', date: '9/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $P(n) : 1^2 + 3^2 + 5^2 + \\dots + (2n-1)^2 = \\frac{1}{3}n(2n-1)(2n+1)$.' },
@@ -697,8 +697,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact match with Professor’s notebook (10/7/26, marked 10M, Pages 9 & 10): includes both the professor’s exact algebraic lines and the inequality justification.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.14_PM_5547da44.jpeg', label: '10M Inequality setup: P(k) and P(k+1)', date: '10/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.19_PM_8f97f436.jpeg', label: 'Inductive step: sqrt(k) + 1/sqrt(k+1) -> sqrt(k+1)', date: '10/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.14_PM_5547da44.jpeg', label: '10M Inequality setup: P(k) and P(k+1)', date: '10/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.19_PM_8f97f436.jpeg', label: 'Inductive step: sqrt(k) + 1/sqrt(k+1) -> sqrt(k+1)', date: '10/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $P(n) : \\frac{1}{\\sqrt{1}} + \\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{3}} + \\dots + \\frac{1}{\\sqrt{n}} > \\sqrt{n}$.' },
@@ -725,7 +725,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Follows the professor’s divisibility induction method (9/7/26, Pages 5 & 6): writes (a^k - b^k)/(a - b) = c => a^k = c(a - b) + b^k and substitutes into a^{k+1} - b^{k+1}.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Divisibility substitution method', date: '9/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Divisibility substitution method', date: '9/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $P(n) : a^n - b^n$ is divisible by $(a - b)$.' },
@@ -755,8 +755,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact verbatim match with Professor’s notebook (16/7/26, marked 10M Problem 3, Pages 31 & 32): computes all 15 terms to get |A1 U A2 U A3 U A4| = 193, and then 250 - 193 = 57.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.24_PM_716006d2.jpeg', label: '10M Problem 3: Single, Pairwise & Triple Intersections', date: '16/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.34_PM_4ed62425.jpeg', label: '10M Problem 3: 4-Set Union = 193', date: '16/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.24_PM_716006d2.jpeg', label: '10M Problem 3: Single, Pairwise & Triple Intersections', date: '16/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.34_PM_4ed62425.jpeg', label: '10M Problem 3: 4-Set Union = 193', date: '16/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $A_1, A_2, A_3, A_4$ denote the sets of integers between $1$ and $250$ divisible by $2, 3, 5, 7$ respectively.' },
@@ -793,9 +793,9 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact line-by-line match with Professor’s notebook (14/7/26, marked 10M Problem 3, Pages 21, 22 & 23): (a) 210, (b) 386, (c) 848, (d) 252.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.56_PM_ff59555a.jpeg', label: '10M Problem 3 Statement', date: '14/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.03_PM_661e7b7a.jpeg', label: 'Parts (i) 210 and (ii) 386', date: '14/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.10_PM_0cfe844c.jpeg', label: 'Parts (iii) 848 and (iv) 252', date: '14/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.56_PM_ff59555a.jpeg', label: '10M Problem 3 Statement', date: '14/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.03_PM_661e7b7a.jpeg', label: 'Parts (i) 210 and (ii) 386', date: '14/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.10_PM_0cfe844c.jpeg', label: 'Parts (iii) 848 and (iv) 252', date: '14/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given: The bit string length is $10$.' },
@@ -825,7 +825,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: false,
     professorMethodNote: 'Solves the characteristic equation m^2 - 2m + 2 = 0 and gives both the algebraic root form and trigonometric polar form.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.53_PM_855d9743.jpeg', label: 'Second-order recurrence relation notes', date: '20/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.53_PM_855d9743.jpeg', label: 'Second-order recurrence relation notes', date: '20/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given recurrence relation: $a_n = 2(a_{n-1} - a_{n-2}) \\implies a_n - 2a_{n-1} + 2a_{n-2} = 0$, with $a_0 = 1, a_1 = 2$.' },
@@ -860,7 +860,7 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Exact verbatim match with Professor’s notebook (14/7/26, marked QB 2, Page 27): includes the exact factorial cancellation for 29C20 and both the classwork number (16921905) and standard complement (26936910) for part (d).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.47_PM_3d68efd3.jpeg', label: 'QB 2 Full Solution in Professor’s Notebook', date: '14/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.23.47_PM_3d68efd3.jpeg', label: 'QB 2 Full Solution in Professor’s Notebook', date: '14/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Total students in class $= 30$, Students to be selected $= 20$.' },
@@ -893,8 +893,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Solved in Professor’s notebook (9/7/26, Pages 5 & 6): substitutes 6^{k+2} = 43c - 7^{2k+1} to obtain 43c * 6 + 301 * 7^{2k} = 43(6c + 7 * 7^{2k}).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.32_PM_c4049fa8.jpeg', label: 'Base case n=1: 216 + 343 = 559', date: '9/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Inductive step: 43c*6 + 301*7^{2k}', date: '9/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.32_PM_c4049fa8.jpeg', label: 'Base case n=1: 216 + 343 = 559', date: '9/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.20.45_PM_e85eede0.jpeg', label: 'Inductive step: 43c*6 + 301*7^{2k}', date: '9/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Let $P(n) : 6^{n+2} + 7^{2n+1}$ is divisible by $43$.' },
@@ -917,8 +917,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Solved in Professor’s notebook (20/7/26, Pages 34 & 35) using the 3x3 determinant eliminating A*2^n and B*3^n.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.53_PM_855d9743.jpeg', label: 'Equations (1), (2), (3) for y_n, y_{n+1}, y_{n+2}', date: '20/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.25.00_PM_eafe1440.jpeg', label: '3x3 Determinant expansion -> 6y_n - 5y_{n+1} + y_{n+2} = 0', date: '20/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.24.53_PM_855d9743.jpeg', label: 'Equations (1), (2), (3) for y_n, y_{n+1}, y_{n+2}', date: '20/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.25.00_PM_eafe1440.jpeg', label: '3x3 Determinant expansion -> 6y_n - 5y_{n+1} + y_{n+2} = 0', date: '20/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given:' },
@@ -941,8 +941,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Solved in Professor’s notebook (10/7/26, Pages 12 & 13): m = 40325, n = 25, [(m-n)/n] + 1 = 1614.',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.40_PM_45b19952.jpeg', label: 'Dictionaries problem statement', date: '10/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.45_PM_3ca2fc7a.jpeg', label: 'Calculation = 1613 + 1 = 1614', date: '10/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.40_PM_45b19952.jpeg', label: 'Dictionaries problem statement', date: '10/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.21.45_PM_3ca2fc7a.jpeg', label: 'Calculation = 1613 + 1 = 1614', date: '10/7/26' }
     ],
     answerLines: [
       { type: 'text', content: 'Given: $m = 40325$ pages (pigeons) and $n = 25$ dictionaries (holes).' },
@@ -960,8 +960,8 @@ export const MODULE_2_QUESTIONS: QuestionItem[] = [
     inClassNotes: true,
     professorMethodNote: 'Solved in Professor’s notebook (13/7/26, Pages 17 & 18).',
     notebookRefs: [
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.19_PM_8dbc0b68.jpeg', label: 'Problem 6 statement', date: '13/7/26' },
-      { imagePath: '/assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.28_PM_bad5a408.jpeg', label: 'Solutions for (i) to (v)', date: '13/7/26' }
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.19_PM_8dbc0b68.jpeg', label: 'Problem 6 statement', date: '13/7/26' },
+      { imagePath: 'assets/aistudio/WhatsApp_Image_2026-10-30_at_12.22.28_PM_bad5a408.jpeg', label: 'Solutions for (i) to (v)', date: '13/7/26' }
     ],
     answerLines: [
       { type: 'list', items: [
